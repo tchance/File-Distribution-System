@@ -1,0 +1,86 @@
+/*
+Theme Name: Indiana Standards Laboratory
+Theme URI: http://www.indianastandards.com
+Author: Tyler
+Author URI: http://www.tylerscottchance.com/
+Description: The 2011 theme for Indiana Standards Lab. Woot.
+Version: 1.0
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+	margin-left:auto;
+	margin-right:auto;
+	align:center;
+}
+
+
+.message {
+	color: red;
+
+}
+
+.submit {
+
+	margin-top:15px;
+
+}
+
+.input {
+	margin-top:15px;
+	margin-left: 30px;
+}
+
+input {
+	margin-left: 30px;
+
+}
+
+.message {
+	margin-left: -15px;
+	font-weight: bold;
+
+}
+
+form {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	width: 325px;
+	margin-left: 30px;
+
+
+}
+
+tr {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCC;
+
+
+}
+
+td {
+	border-right: 1px dashed #CCC;
+	padding: 5px 5px 5px 5px;
+}
+
+tr:hover {
+	background-color: #ffff99;
+	cursor:pointer;
+	
+}
+
+.btn.info,.alert-message.info{
+	background-color:#79a2bf;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear, left top, left bottom, from(#509dd4), to(#79a2bf));
+	background-image:-moz-linear-gradient(top, #509dd4, #79a2bf);
+	background-image:-ms-linear-gradient(top, #509dd4, #79a2bf);
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #509dd4), color-stop(100%, #79a2bf));
+	background-image:-webkit-linear-gradient(top, #509dd4, #79a2bf);
+	background-image:-o-linear-gradient(top, #509dd4, #79a2bf);
+	background-image:linear-gradient(top, #509dd4, #79a2bf);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#509dd4', endColorstr='#79a2bf', GradientType=0);
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+	border-color:#79a2bf #79a2bf #509dd4;
+	border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}

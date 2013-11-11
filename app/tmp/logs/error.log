@@ -1,0 +1,798 @@
+2012-03-30 10:17:49 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 10:18:24 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 10:18:26 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 10:18:27 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 10:20:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customer.id' in 'where clause'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Custome...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1058): DboSource->fetchAll('SELECT `Custome...', false)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(Customer), Array)
+#5 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(576): Model->find('first', Array)
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(775): DboSource->query('findById', Array, Object(Customer))
+#7 [internal function]: Model->__call('findById', Array)
+#8 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(12): Customer->findById('20410.00')
+#9 [internal function]: CustomersController->view('20410.00')
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#11 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#12 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-03-30 12:43:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 13:55:15 Error: [MissingActionException] Action Users::login() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-30 13:55:19 Error: [MissingActionException] Action Users::login() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-30 13:56:47 Error: [MissingActionException] Action Users::login() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-30 13:56:48 Error: [MissingActionException] Action Users::login() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Scaffold.php(151): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(530): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(489): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-30 13:57:18 Error: [MissingViewException] View file "/home/tylersc1/public_html/cake2/app/View/Users/login.ctp" is missing.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-30 14:26:49 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-30 14:36:52 Error: [MissingControllerException] Controller class CusotmerasController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-02 14:26:38 Error: [MissingTableException] Table customer_files for model CustomerFile was not found in datasource default.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3398): Model->setSource('customer_files')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1044): Model->getDataSource()
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(Customer), Array)
+#3 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(8): Model->find('all', Array)
+#4 [internal function]: CustomersController->index()
+#5 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#8 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-04-02 18:06:50 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(364): CakePlugin::path('AjaxMultiUpload')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(542): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/View/HelperCollection.php(82): spl_autoload_call('UploadHelper')
+#5 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(850): HelperCollection->load('UploadHelper')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(456): View->loadHelpers('AjaxMultiUpload...', Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render(NULL, NULL)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke()
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-02 18:07:48 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(364): CakePlugin::path('AjaxMultiUpload')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(542): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/View/HelperCollection.php(82): spl_autoload_call('UploadHelper')
+#5 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(850): HelperCollection->load('UploadHelper')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(456): View->loadHelpers('AjaxMultiUpload...', Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render(NULL, NULL)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke()
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-02 18:08:37 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(364): CakePlugin::path('AjaxMultiUpload')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(542): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/View/HelperCollection.php(82): spl_autoload_call('UploadHelper')
+#5 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(850): HelperCollection->load('UploadHelper')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(456): View->loadHelpers('AjaxMultiUpload...', Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render(NULL, NULL)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke()
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-02 18:08:38 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(364): CakePlugin::path('AjaxMultiUpload')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(542): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/View/HelperCollection.php(82): spl_autoload_call('UploadHelper')
+#5 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(850): HelperCollection->load('UploadHelper')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(456): View->loadHelpers('AjaxMultiUpload...', Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render(NULL, NULL)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke()
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-02 18:08:40 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(364): CakePlugin::path('AjaxMultiUpload')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(542): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/View/HelperCollection.php(82): spl_autoload_call('UploadHelper')
+#5 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(850): HelperCollection->load('UploadHelper')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(456): View->loadHelpers('AjaxMultiUpload...', Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render(NULL, NULL)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke()
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-02 18:09:48 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(364): CakePlugin::path('AjaxMultiUpload')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(542): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/View/HelperCollection.php(82): spl_autoload_call('UploadHelper')
+#5 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(850): HelperCollection->load('UploadHelper')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(456): View->loadHelpers('AjaxMultiUpload...', Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render(NULL, NULL)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke()
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-03 09:42:00 Error: [MissingPluginException] Plugin AjaxMultiUpload could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(364): CakePlugin::path('AjaxMultiUpload')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(225): App::pluginPath('AjaxMultiUpload')
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Core/App.php(542): App::path('View/Helper', 'AjaxMultiUpload')
+#3 [internal function]: App::load('UploadHelper')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/View/HelperCollection.php(82): spl_autoload_call('UploadHelper')
+#5 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(850): HelperCollection->load('UploadHelper')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(456): View->loadHelpers('AjaxMultiUpload...', Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render(NULL, NULL)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke()
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-03 14:01:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findAllbyCustomerId' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('findAllbyCustom...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('findAllbyCustom...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('findAllbyCustom...', Array, Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(775): DboSource->query('findAllbyCustom...', Array, Object(CustomerFile))
+#5 [internal function]: Model->__call('findAllbyCustom...', Array)
+#6 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(14): CustomerFile->findAllbyCustomerId('80231.00')
+#7 [internal function]: CustomersController->view('80231.00')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-03 14:02:11 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findAllbyCustomerId' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('findAllbyCustom...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('findAllbyCustom...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('findAllbyCustom...', Array, Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(775): DboSource->query('findAllbyCustom...', Array, Object(CustomerFile))
+#5 [internal function]: Model->__call('findAllbyCustom...', Array)
+#6 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(14): CustomerFile->findAllbyCustomerId('70360.00')
+#7 [internal function]: CustomersController->view('70360.00')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-05 10:55:10 Error: [MissingTableException] Table companies for model Company was not found in datasource default.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3398): Model->setSource('companies')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1044): Model->getDataSource()
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(12): Controller->paginate()
+#6 [internal function]: UsersController->index()
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-05 10:55:54 Error: [MissingTableException] Table companies for model Company was not found in datasource default.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3398): Model->setSource('companies')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1044): Model->getDataSource()
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(12): Controller->paginate()
+#6 [internal function]: UsersController->index()
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-05 10:55:58 Error: [MissingTableException] Table companies for model Company was not found in datasource default.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3398): Model->setSource('companies')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1044): Model->getDataSource()
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(12): Controller->paginate()
+#6 [internal function]: UsersController->index()
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-05 10:55:59 Error: [MissingTableException] Table companies for model Company was not found in datasource default.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3398): Model->setSource('companies')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1044): Model->getDataSource()
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(12): Controller->paginate()
+#6 [internal function]: UsersController->index()
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-05 10:56:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customer.user_id' in 'on clause'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1058): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#5 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(12): Controller->paginate()
+#8 [internal function]: UsersController->index()
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-04-05 10:57:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.customer_id' in 'on clause'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1058): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#5 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(12): Controller->paginate()
+#8 [internal function]: UsersController->index()
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-04-05 10:57:32 Error: [MissingViewException] View file "/home/tylersc1/public_html/cake2/app/View/Users/index.ctp" is missing.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-06 13:33:02 Error: [MissingControllerException] Controller class LogoutController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-06 14:31:35 Error: [MissingControllerException] Controller class LogoutController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-06 14:31:44 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 12:58:49 Error: [MissingControllerException] Controller class CustomerfilesController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 12:59:08 Error: [MissingControllerException] Controller class CustomerfilesController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 13:00:50 Error: [MissingViewException] View file "/home/tylersc1/public_html/cake2/app/View/CustomerFile/add.ctp" is missing.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 13:17:26 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'test_number' cannot be null
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(20): Model->save(Array)
+#5 [internal function]: CustomerfilesController->add('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-10 13:28:53 Error: [MissingActionException] Action CustomersController::70360.00() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 13:35:50 Error: [MissingActionException] Action CustomersController::70360.00() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-10 14:20:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_saveFile' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('_saveFile', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('_saveFile', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('_saveFile', Array, Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(775): DboSource->query('_saveFile', Array, Object(CustomerFile))
+#5 [internal function]: Model->__call('_saveFile', Array)
+#6 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(44): CustomerFile->_saveFile()
+#7 [internal function]: CustomerfilesController->add('70360.00')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-10 14:49:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(31): Model->save(Array)
+#5 [internal function]: CustomerfilesController->add('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-10 14:51:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(28): Model->save(Array)
+#5 [internal function]: CustomerfilesController->add('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-10 14:53:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(27): Model->save(Array)
+#5 [internal function]: CustomerfilesController->add('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-10 14:54:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(28): Model->save(Array)
+#5 [internal function]: CustomerfilesController->add('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 13:15:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(44): Model->save(Array)
+#5 [internal function]: CustomerfilesController->add('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 13:22:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(44): Model->save()
+#5 [internal function]: CustomerfilesController->upload('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 13:22:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'filename' cannot be null
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(44): Model->save()
+#5 [internal function]: CustomerfilesController->upload('70360.00')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 13:35:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getTestNumber' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('getTestNumber', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('getTestNumber', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('getTestNumber', Array, Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(775): DboSource->query('getTestNumber', Array, Object(CustomerFile))
+#5 [internal function]: Model->__call('getTestNumber', Array)
+#6 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(30): CustomerFile->getTestNumber()
+#7 [internal function]: CustomerfilesController->upload('70360.00')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-12 13:36:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_getTestNumber' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('_getTestNumber', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('_getTestNumber', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('_getTestNumber', Array, Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(775): DboSource->query('_getTestNumber', Array, Object(CustomerFile))
+#5 [internal function]: Model->__call('_getTestNumber', Array)
+#6 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(30): CustomerFile->_getTestNumber()
+#7 [internal function]: CustomerfilesController->upload('70360.00')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-12 13:48:57 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 13:49:27 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 13:50:20 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 14:02:32 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 14:18:59 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 14:46:38 Error: [MissingActionException] Action CustomersController::img() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-12 14:48:14 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 14:55:48 Error: [MissingActionException] Action AppController::files() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-12 14:57:28 Error: [MissingActionException] Action AppController::files() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-12 14:57:38 Error: [MissingActionException] Action AppController::files() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-12 18:15:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customer.customer_id' in 'where clause'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Custome...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1058): DboSource->fetchAll('SELECT `Custome...', false)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(Customer), Array)
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(8): Model->find('all', Array)
+#6 [internal function]: CustomersController->index()
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-12 18:18:46 Error: [MissingActionException] Action CustomersController::70360() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-13 09:50:31 Error: [MissingActionException] Action UsersController::images() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-13 09:52:12 Error: [MissingActionException] Action UsersController::images() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-13 09:53:32 Error: [MissingActionException] Action UsersController::images() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-13 11:03:51 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'test_number' cannot be null
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(CustomerFile), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(44): Model->save()
+#5 [internal function]: CustomerfilesController->upload('70360')
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-13 13:43:10 Error: [MissingActionException] Action CustomersController::view131510() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-13 13:45:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customer.user_id' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Custome...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1300): DboSource->fetchAll('SELECT `Custome...', false)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1169): DboSource->fetchAssociated(Object(User), 'SELECT `Custome...', Array)
+#5 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1087): DboSource->queryAssociation(Object(User), Object(Customer), 'hasMany', 'Customer', Array, Array, true, Array, 0, Array)
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#7 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(10): Model->find('all')
+#8 [internal function]: UsersController->index()
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-04-13 13:48:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Customer.user_id' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Custome...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1300): DboSource->fetchAll('SELECT `Custome...', false)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1169): DboSource->fetchAssociated(Object(User), 'SELECT `Custome...', Array)
+#5 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1087): DboSource->queryAssociation(Object(User), Object(Customer), 'hasMany', 'Customer', Array, Array, true, Array, 0, Array)
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(User), Array)
+#7 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(10): Model->find('all')
+#8 [internal function]: UsersController->index()
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-04-17 12:17:43 Error: [MissingControllerException] Controller class CpanelController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-17 12:24:33 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-17 12:25:12 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-17 12:46:51 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'customer_id' cannot be null
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `ty...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `ty...')
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(1703): DboSource->create(Object(User), Array, Array)
+#4 /home/tylersc1/public_html/cake2/app/Controller/UsersController.php(25): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-17 13:00:01 Error: [MissingActionException] Action CustomersController::addusertocustomer() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-17 13:03:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.customer_id' in 'on clause'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Custome...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Custome...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(1058): DboSource->fetchAll('SELECT `Custome...', false)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(2653): DboSource->read(Object(Customer), Array)
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(7): Model->find('all', Array)
+#6 [internal function]: CustomersController->index()
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomersController), Array)
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-17 14:26:26 Error: [MissingActionException] Action CustomersController::cake2() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-17 14:27:36 Error: [MissingActionException] Action CustomersController::cake2() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-17 14:27:54 Error: [MissingActionException] Action CustomersController::customers() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-17 14:42:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT * from c...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT * from c...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('SELECT * from c...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('SELECT * from c...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(64): Model->query(Array, Array)
+#6 [internal function]: CustomersController->addUserToCustomer('SELECT * from c...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomersController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-17 14:48:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id =' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('UPDATE customer...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('UPDATE customer...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('UPDATE customer...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('UPDATE customer...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(64): Model->query(Array, Array)
+#6 [internal function]: CustomersController->addUserToCustomer('UPDATE customer...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomersController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-17 14:49:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('UPDATE customer...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('UPDATE customer...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('UPDATE customer...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('UPDATE customer...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomersController.php(64): Model->query(Array, Array)
+#6 [internal function]: CustomersController->addUserToCustomer('UPDATE customer...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs()
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomersController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-24 15:00:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '114788 CN461 Rev 1.pdf' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO cus...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('INSERT INTO cus...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('INSERT INTO cus...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('INSERT INTO cus...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(75): Model->query(Array, Array)
+#6 [internal function]: CustomerfilesController->batchUpload('INSERT INTO cus...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs('220080')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-24 15:03:13 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '114788 CN461 Rev 1.pdf' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO cus...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('INSERT INTO cus...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('INSERT INTO cus...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('INSERT INTO cus...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(75): Model->query(Array, Array)
+#6 [internal function]: CustomerfilesController->batchUpload('INSERT INTO cus...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs('220080')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-24 15:07:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CN461 Rev 1.pdf)' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO cus...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('INSERT INTO cus...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('INSERT INTO cus...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('INSERT INTO cus...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(75): Model->query(Array, Array)
+#6 [internal function]: CustomerfilesController->batchUpload('INSERT INTO cus...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs('220080')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-25 10:50:34 Error: [MissingControllerException] Controller class CustomersfilesController could not be found.
+#0 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-25 11:03:42 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '")' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO cus...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('INSERT INTO cus...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('INSERT INTO cus...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('INSERT INTO cus...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(92): Model->query(Array, Array)
+#6 [internal function]: CustomerfilesController->batchUpload('INSERT INTO cus...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs('500140')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-25 11:04:19 Error: [PDOException] SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO cus...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('INSERT INTO cus...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('INSERT INTO cus...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('INSERT INTO cus...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(92): Model->query(Array, Array)
+#6 [internal function]: CustomerfilesController->batchUpload('INSERT INTO cus...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs('500140')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-25 11:15:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DATE_CREATED' in 'field list'
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO cus...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('INSERT INTO cus...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('INSERT INTO cus...')
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(3010): DboSource->query('INSERT INTO cus...')
+#5 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(92): Model->query(Array, Array)
+#6 [internal function]: CustomerfilesController->batchUpload('INSERT INTO cus...')
+#7 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs('500140')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-04-26 11:35:00 Error: [MissingActionException] Action CustomerFileController::batchuploadf() could not be found.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-26 12:11:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'putArrayTogether' at line 1
+#0 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('putArrayTogethe...', Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('putArrayTogethe...', Array, Array)
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('putArrayTogethe...', Array, Array)
+#4 /home/tylersc1/public_html/cake2/lib/Cake/Model/Model.php(775): DboSource->query('putArrayTogethe...', Array, Object(CustomerFile))
+#5 [internal function]: Model->__call('putArrayTogethe...', Array)
+#6 /home/tylersc1/public_html/cake2/app/Controller/CustomerfilesController.php(106): CustomerFile->putArrayTogether()
+#7 [internal function]: CustomerfilesController->batchUpload('70360')
+#8 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#9 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-26 14:43:16 Error: [MissingViewException] View file "/home/tylersc1/public_html/cake2/app/View/Customers/delete.ctp" is missing.
+#0 /home/tylersc1/public_html/cake2/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-26 14:51:11 Error: [NotFoundException] Invalid user
+#0 [internal function]: CustomerfilesController->delete('70590')
+#1 /home/tylersc1/public_html/cake2/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CustomerfilesController), Array)
+#2 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 /home/tylersc1/public_html/cake2/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CustomerfilesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/tylersc1/public_html/cake2/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
